@@ -1,9 +1,12 @@
-﻿body {
-ul{
+﻿
+nav {
+
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    /*width: 200px;*/
     background-color: #f1f1f1;
 }
 
@@ -15,8 +18,7 @@ li a {
 }
 
     /* Change the link color on hover */
-    li a:hover {
-        background-color: #555;
-        color: white;
-    }
+li a:hover {
+    background-color: #555;
+    color: orange;
 }
