@@ -1,4 +1,20 @@
 ﻿@import "NavigationBar.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.pageTextLeft {
+    text-align: left;
+}
+
+.pageTextRight {
+    text-align: right;
+}
+
 .item1 {
     grid-area: menu;
 }

@@ -7,11 +7,12 @@ body {
     background-blend-mode: soft-light;
 }
 
+
+
 #navbarNavDropdown {
     justify-content: flex-end;
     font-size: 17px;
-    font-family:sans-serif;
-
+    font-family: sans-serif;
 }
 
 #navbarDropdownMenuLink a{
