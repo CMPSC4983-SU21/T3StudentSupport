@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>Student Support Services</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="bootstrap.css"> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/navBar.css">
+<link rel="stylesheet" href="css/quickLink.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body id="myPage">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarBackground">
+        <div class="container-fluid">
+            <a href="https://www.ecok.edu/" target="_blank"> <img src="images/ECOK.png" width=65 height=40> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navbar">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="testHomePage.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="about.html" target="_blank">About SSS</a></li>
+                            <li><a class="dropdown-item" href="location.html" target="_blank">Location</a></li>
+                            <li><a class="dropdown-item" href="tutorInfo.html" target="_blank">Tutor Information</a></li>
+                            <li><a class="dropdown-item" href="contactUs.html" target="_blank">Contact Us</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ecu-sss-pub.studentaccess.com/appform/default.aspx?guid=ea280f02-5c90-45a3-bac5-0cd50baa1e7d" target="_blank">Apply</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://booking.setmore.com/scheduleappointment/a8739a00-0d4e-4497-bf36-633cde35ae5a" target="_blank">Appointments</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://www.ecok.edu/directory" target="_blank">Directory</a></li>
+                            <li><a class="dropdown-item" href="https://blackboard.ecok.edu/" target="_blank">Blackboard</a></li>
+                            <li><a class="dropdown-item" href="https://www.ecok.edu/colleague-self-service" target="_blank">Colleague Self-Service</a></li>
+                            <li><a class="dropdown-item" href="https://outlook.office.com/mail/inbox" target="_blank">Email</a></li>
+                            <li><a class="dropdown-item" href="https://myecu.ecok.edu/ics/" target="_blank">My ECU</a></li>
+                            <li><a class="dropdown-item" href="https://www.tutorme.com/" target="_blank">TutorMe</a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="#team" class="w3-bar-item w3-button">Team</a>
+            <a href="#work" class="w3-bar-item w3-button">Work</a>
+            <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="#" class="w3-bar-item w3-button">Search</a>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="images/campus.jpg" alt="East Central University" style="width:100%;min-height:350px;max-height:600px;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Apply</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-orange w3-display-container">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-w3-orange w3-display-topright"><i class="fa fa-remove"></i></span>
+                <h4>What is Student Support Services?</h4>
+            </header>
+            <div class="w3-container">
+                <h3>Who Qualifies?</h3>
+                <p class="pageTextLeft">
+                    You must be enrolled at East Central University and need academic support.  You must also belong to one of the following groups:
+
+                    First generation college student (neither parent has a 4-year college degree)
+                    Economically disadvantaged
+                    Disabled (must be documented with Testing and Accessibility Services)
+                    If you are uncertain if you meet the eligibility guidelines, please contact our office at (580) 559-5833!
+                </p>
+
+                <h3>Services We Provide:</h3>
+
+                <li class="pageTextLeft">Academic advisement</li>
+                <li class="pageTextLeft">Enrollment assistance</li>
+                <li class="pageTextLeft">Computer lab access</li>
+                <li class="pageTextLeft">Free Tutoring</li>
+                <li class="pageTextLeft">Financial aid information and application assistance</li>
+                <li class="pageTextLeft">Student Advocacy</li>
+                <li class="pageTextLeft">On campus and community resources</li>
+                <li class="pageTextLeft">Advisement on study skills, stress management, test anxiety, financial literacy, and career options</li>
+                <br>
+                <a class="nav-link" href="https://ecu-sss-pub.studentaccess.com/appform/default.aspx?guid=ea280f02-5c90-45a3-bac5-0cd50baa1e7d" target="_blank">Apply Here</a>
+                <br>
+
+            </div>
+            <footer class="w3-container w3-orange">
+               <p>Student Support Services</p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Team Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+        <h2>OUR TEAM</h2>
+        <p>Meet the team</p>
+
+        <div class="w3-row">
+            <br>
+
+            <div class="w3-half">
+                <img src="images/Dannie_Patton.jpg" alt="SSS Director" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3><a class="orange" href="mailto: dpatton@ecok.edu">Dannie Patton</a></h3>
+                <p>ECU SSS Director</p>
+            </div>
+
+            <div class="w3-half">
+                <img src="images/Elizabeth_McCarn.jpg" alt="SSS Advisor" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3><a href="mailto: edfloyd@ecok.edu.edu">Elizabeth Floyd</a></h3>
+                <p>ECU SSS Advisor</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Work Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+        <div class="w3-quarter">
+            <h2>Our Work</h2>
+            <p>Student Support Services is a federally funded program designed to meet the academic needs of East Central University students.  
+            Our goal is to improve the retention and graduation rates of our students by providing an environment where students can come for assistance with academic and personal needs. </p>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/advising.png" alt="Snow" style="width:100%">
+                <div class="w3-container">
+                    <h3>Advising</h3>
+                    <p>Academic advisement</p>
+                    <p>Enrollment assistance</p>
+                    <p>Advisement on study skills, stress management, test anxiety, financial literacy, and career options</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/tutoring.jpg" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                    <h3>Tutoring</h3>
+                    <p>Free Tutoring</p>
+                    <p>24/7 Tutoring Services</p>
+                    <p>In-person Tutoring</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/Financial-Aid.png" alt="Additional Help" style="width:100%">
+                <div class="w3-container">
+                    <h3>Additional Services</h3>
+                    <p>Financial aid information and application assistance</p>
+                    <p>Student Advocacy</p>
+                    <p>On campus and community resources</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Contact Container -->
+    <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+        <div class="w3-row">
+            <div class="w3-col m5">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-orange w3-bottombar">Contact Us</span></div>
+                <h3>Address</h3>
+                <p>Helping East Central University students since 1972!</p>
+                <p>
+                    <i class="fa fa-map-marker w3-text-orange w3-xlarge"></i>
+                    Student Support Services
+                    <br>
+                    Administration Building
+                    <br>
+                    Second floor, Suite 250
+                    <br>
+                    1100 East 14th Street
+                    <br>
+                    Ada, OK 74820
+                </p>
+                <!--<p><i class="fa fa-phone w3-text-orange w3-xlarge"></i>  +00 1515151515</p>
+                <p><i class="fa fa-envelope-o w3-text-orange w3-xlarge"></i>  test@test.com</p>      This is for phone number and email.-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="images/2019_ECU_Campus_Map_Corrected.jpg" class="w3-image " style="width:100%;">
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-orange" href="https://www.facebook.com/SSSTigers/" title="Facebook"><i class="fa fa-facebook"></i></a>
+        <a class="w3-button w3-large w3-orange" href="https://www.instagram.com/ECU_STUDENTSUPPORTSERVICES/" title="Instagram"><i class="fa fa-instagram"></i></a>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-orange w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage">
+                <span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i>
+                </span>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+</html>
