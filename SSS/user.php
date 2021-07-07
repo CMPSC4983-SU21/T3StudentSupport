@@ -1,19 +1,19 @@
 <?php
 include 'connect.php';
-if(isset($_POST['submit'])){
-  $name=$_POST['name'];
-  $email=$_POST['email'];
-  $advisor=$_POST['advisor'];
-  $department=$_POST['department'];
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $advisor = $_POST['advisor'];
+  $department = $_POST['department'];
 
-  $sql="insert into `users` (name, email, advisor, department) 
+  $sql = "insert into `users` (name, email, advisor, department) 
   values('$name', '$email', '$advisor', '$department')";
-  $result=mysqli_query($con,$sql);
+  $result = mysqli_query($con, $sql);
 
-  if($result){
+  if ($result) {
     //echo "Data Inserted Sucess";
     header('location:thankyou.php');
-  }else{
+  } else {
     die(mysqli_error($con));
   }
 }
@@ -34,7 +34,8 @@ if(isset($_POST['submit'])){
 </head>
 
 <body>
-  <div class="container my-5" >
+
+  <div class="container my-5">
     <form method="post">
       <div class="mb-3">
         <label class="form-label">Name</label>
@@ -44,15 +45,19 @@ if(isset($_POST['submit'])){
         <label class="form-label">Email</label>
         <input type="email" class="form-control" placeholder="Enter your email." name="email">
       </div>
+
       <div class="mb-3">
-        <label class="form-label">Advisor</label>
-        <input type="text" class="form-control" placeholder="Enter your name." name="advisor">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Department</label>
-        <input type="text" class="form-control" placeholder="Enter your department." name="department">
+        <label> Advisor</label>
+        <select>
+          <option value="advisor" name="advisor"> Dannie Patton </option>
+          <option value="advisor" name="advisor"> Elizabeth Floyd </option>
+        </select>
       </div>
 
+      <div class="mb-3">
+        <label class="form-label">Day</label>
+        <input type="text" class="form-control" placeholder="Please enter Monday-Friday" name="department">
+      </div>
 
       <button type="submit" class="btn btn-primary" name="submit">Submit</button>
     </form>

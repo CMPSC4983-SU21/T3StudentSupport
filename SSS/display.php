@@ -24,8 +24,8 @@ include 'connect.php';
           <th scope="col">Name</th>
           <th scope="col">Email</th>
           <th scope="col">Advisor</th>
-          <th scope="col">Department</th>
-          <th scope="col">operation</th>
+          <th scope="col">Day</th>
+          <th scope="col">Operation</th>
         </tr>
       </thead>
       <tbody>
