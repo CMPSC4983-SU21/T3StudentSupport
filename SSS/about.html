@@ -5,15 +5,17 @@
     <!-- <link rel="stylesheet" href="bootstrap.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="css/quickLink.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 
-
     <title>About Us</title>
 </head>
-<body>
+<body id="myPage">
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarBackground">
         <div class="container-fluid">
@@ -71,24 +73,6 @@
         </div>
     </nav>
     <div class="grid-container">
-        <div class="item1">
-            <quick>
-
-                <div id="sideMenuContainer">
-
-                    <h4>Quick Access</h4>
-
-                    <div class="btn-group-vertical" role="group" aria-label="Vertical example">
-                        <a href="https://ecu-sss-pub.studentaccess.com/appform/default.aspx?guid=ea280f02-5c90-45a3-bac5-0cd50baa1e7d" class="btn btn-orange btn-block active btn-orange-customsize" btn-orange-customsizerole="button" aria-pressed="true">Apply</a>
-                        <a href="https://booking.setmore.com/scheduleappointment/a8739a00-0d4e-4497-bf36-633cde35ae5a" class="btn btn-orange btn-block active btn-orange-customsize" role="button" aria-pressed="true">Appointment</a>
-                        <a href="tutorInfo.html" class="btn btn-orange btn-block active btn-orange-customsize" role="button" aria-pressed="true">Tutor Schedule</a>
-                        <a href="about.html" class="btn btn-orange btn-block active btn-orange-customsize" role="button" aria-pressed="true">About Us</a>
-                    </div>
-
-                </div>
-
-            </quick>
-        </div>
 
         <div class="item2">
             <h2 class="pageTextLeft"><b>Student Support Services</b></h2>
@@ -153,9 +137,46 @@
 
         </div>
 
-        <div class="item4">Footer</div>
-    </div>
+        <!-- Footer -->
+        <footer class="item4 w3-container w3-padding-32 w3-theme-d1 w3-center">
+            <h4>Follow Us</h4>
+            <a class="w3-button w3-large w3-orange" href="https://www.facebook.com/SSSTigers/" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="w3-button w3-large w3-orange" href="https://www.instagram.com/ECU_STUDENTSUPPORTSERVICES/" title="Instagram"><i class="fa fa-instagram"></i></a>
 
-    <!-- <script src="bootstrap.js"> </script>     -->
+            <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+                <span class="w3-text w3-padding w3-orange w3-hide-small">Go To Top</span>
+                <a class="w3-button w3-theme" href="#myPage">
+                    <span class="w3-xlarge">
+                        <i class="fa fa-chevron-circle-up"></i>
+                    </span>
+                </a>
+            </div>
+        </footer>
+
+        <script>
+            // Script for side navigation
+            function w3_open() {
+                var x = document.getElementById("mySidebar");
+                x.style.width = "300px";
+                x.style.paddingTop = "10%";
+                x.style.display = "block";
+            }
+
+            // Close side navigation
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+
+            // Used to toggle the menu on smaller screens when clicking on the menu button
+            function openNav() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+        <!-- <script src="bootstrap.js"> </script>     -->
 </body>
 </html>

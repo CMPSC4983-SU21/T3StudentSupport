@@ -1,11 +1,147 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/quickLink.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
+
+    <title>Tutoring</title>
+</head>
+<body id="myPage">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarBackground">
+        <div class="container-fluid">
+            <a href="https://www.ecok.edu/" target="_blank"> <img src="images/ECOK.png" width=65 height=40> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navbar">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="testHomePage.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="about.html" target="_blank">About SSS</a></li>
+                            <li><a class="dropdown-item" href="location.html" target="_blank">Location</a></li>
+                            <li><a class="dropdown-item" href="tutorInfo.html" target="_blank">Tutor Information</a></li>
+                            <li><a class="dropdown-item" href="contactUs.html" target="_blank">Contact Us</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ecu-sss-pub.studentaccess.com/appform/default.aspx?guid=ea280f02-5c90-45a3-bac5-0cd50baa1e7d" target="_blank">Apply</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://booking.setmore.com/scheduleappointment/a8739a00-0d4e-4497-bf36-633cde35ae5a" target="_blank">Appointments</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://www.ecok.edu/directory" target="_blank">Directory</a></li>
+                            <li><a class="dropdown-item" href="https://blackboard.ecok.edu/" target="_blank">Blackboard</a></li>
+                            <li><a class="dropdown-item" href="https://www.ecok.edu/colleague-self-service" target="_blank">Colleague Self-Service</a></li>
+                            <li><a class="dropdown-item" href="https://outlook.office.com/mail/inbox" target="_blank">Email</a></li>
+                            <li><a class="dropdown-item" href="https://myecu.ecok.edu/ics/" target="_blank">My ECU</a></li>
+                            <li><a class="dropdown-item" href="https://www.tutorme.com/" target="_blank">TutorMe</a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+        <h2>OUR TUTORS</h2>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/Tristan_Wood.png" alt="Tristan Wood" style="width: 50%; height: 50%;">
+                <div class="w3-container">
+                    <h3>Tristan Wood</h3>
+                    <p>
+                        Courses: English Comp. I & II, C++ I and II,
+                        Info Security, Gen Bio, Pre-Calc for EPCS, Trig,
+                        Physics II, IMO, & Intro. Engineer.t
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Work Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+        <img src="tutorSchedule/TutorSchedule.jpg" class="w3-image " style="width:80;">
+        <br>
+        <p>PDF file: <a href="tutorSchedule/Summer 2021 Tutor Schedule.pdf">Tutor Schedule</a>.</p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="item4 w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-orange" href="https://www.facebook.com/SSSTigers/" title="Facebook"><i class="fa fa-facebook"></i></a>
+        <a class="w3-button w3-large w3-orange" href="https://www.instagram.com/ECU_STUDENTSUPPORTSERVICES/" title="Instagram"><i class="fa fa-instagram"></i></a>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-orange w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage">
+                <span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i>
+                </span>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <!-- <script src="bootstrap.js"> </script>     -->
 </body>
 </html>

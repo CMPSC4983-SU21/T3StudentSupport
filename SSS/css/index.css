@@ -39,7 +39,7 @@ body {
     grid-template-columns: [first] 10% [line2] 50% [line3] auto [end];
     grid-template-rows: [row1-start] 15% [row1-end] auto [third-line] 70px [last-line];
     /* we could delete the row1- start since there is no content! and we only have 2 rows in the website */
-    grid-template-areas: 'menu main main main right right' 'menu main main main right right' 'footer footer footer footer footer footer';
+    grid-template-areas: 'menu main main main right right' 'menu main main main right right' 'footer footer footer footer footer footer' 'footer footer footer footer footer footer';
     grid-gap: 10px;
     /* background-color:rgb(221, 56, 16); */
     width: 100%;
