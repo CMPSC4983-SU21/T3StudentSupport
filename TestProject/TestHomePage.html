@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+         <title> ECU Student Support Services </title>
+         <link rel="stylesheet" href="Index.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+         <link rel="styleheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/ce189f9f4a.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="homePageHeader">
+            <nav>
+                <a href="https://www.ecok.edu"><img src="images/EcuLogo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="TestHomePage.html">Home</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                                <div class="dropdown-content">
+                                    <li><a class="dropdown-item" href="about.html" target="_blank">About SSS</a></li>
+                                    <li><a class="dropdown-item" href="location.html" target="_blank">Location</a></li>
+                                    <li><a class="dropdown-item" href="tutorInfo.html" target="_blank">Tutor Information</a></li>
+                            </div>
+                            </div>
+                        <li><a href="https://ecu-sss-pub.studentaccess.com/appform/default.aspx?guid=ea280f02-5c90-45a3-bac5-0cd50baa1e7d">Apply</a></li>                        
+                        <li><a href="https://booking.setmore.com/scheduleappointment/a8739a00-0d4e-4497-bf36-633cde35ae5a">Appointment</a></li>                                        
+                        <div class="dropdown">
+                            <button class="dropbtn">Resources</button>
+                            <div class="dropdown-content">
+                                <li><a class="dropdown-item" href="https://www.ecok.edu/directory" target="_blank">Directory</a></li>
+                                <li><a class="dropdown-item" href="https://blackboard.ecok.edu/" target="_blank">Blackboard</a></li>
+                                <li><a class="dropdown-item" href="https://www.ecok.edu/colleague-self-service" target="_blank">Colleague Self-Service</a></li>
+                                <li><a class="dropdown-item" href="https://outlook.office.com/mail/inbox" target="_blank">Email</a>
+                                <li><a class="dropdown-item" href="https://myecu.ecok.edu/ics/" target="_blank">My ECU</a></li>
+                                <li><a class="dropdown-item" href="https://www.tutorme.com/" target="_blank">TutorMe</a></li>
+                                <li><a class="dropdown-item" href="login.html" target="_blank">Login</a></li>
+                            </div>
+                          </div>
+                        </div>
+                    </ul>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            </section>
+
+        <section class="teamContainer">
+            <h1>Meet our Team</h1>
+            <div class="row">
+            <div class="team-col">
+                <img src="images/Dannie_Patton.jpg">
+                <h3><a href='mailto: dpatton@ecok.edu'>Dannie Patton</a></h3>
+            </div>
+            <div class="team-col">
+                <img src="images/Elizabeth_McCarn.jpg">
+                <h3><a href='mailto: edfloyd@ecok.edu.edu'>Elizabeth McCarn</a></h3>
+            </div>
+        </div>
+        </section>
+        
+    </body>
+<section class="teamContainer"> 
+    <h1>Our Work</h1>
+            <div class="row">
+                <p>Student Support Services is a federally funded program designed to meet the academic needs of East Central University students.  
+                Our goal is to improve the retention and graduation rates of our students by providing an environment where students can come for assistance with academic and personal needs. </p>
+            </div>
+ </section>               
+        <section class="work">
+            <div class="row">
+                <div class="work-col">
+                    <img src="images/advising.png">
+                    <h3>Advising</h3>
+                    <p>Academic advisement</p>
+                    <p>Enrollment assistance</p>
+                    <p>Advisement on study skills, stress management, test anxiety, financial literacy, and career options</p>
+                    </div>
+                <div class="work-col">
+                    <img src="images/tutoring.jpg">
+                    <h3>Tutoring</h3>
+                    <p>Free Tutoring</p>
+                    <p>24/7 Tutoring Services</p>
+                    <p>In-person Tutoring</p>
+                              
+                 </div>
+                <div class="work-col">
+                    <img src="images/Financial-Aid.png">
+                    <h3>Additional Services</h3>
+                    <p>Financial aid information and application assistance</p>
+                    <p>Student Advocacy</p>
+                    <p>On campus and community resources</p>
+                </div>
+            </div>
+        </section>
+            
+   <section class="address">
+       <h1><a href="contactUs.html">Contact Us</h1></a>
+        <h3>
+            <i class="fa fa-map-marker w3-text-orange w3-xlarge"></i>
+            Student Support Services
+            <br>
+            Administration Building
+            <br>
+            Second floor, Suite 250
+            <br>
+            1100 East 14th Street
+            <br>
+            Ada, OK 74820
+        </h3>
+        <div class="address-col">
+                 <a href="images/2019_ECU_Campus_Map_Corrected.jpg"><img src="images/2019_ECU_Campus_Map_Corrected.jpg"></a>
+        </div>
+        </div>
+   </section>
+    <section class="footer">
+
+        <h4>Follow Us</h4>
+       
+        <a class="footerSmall-btn" href="https://www.facebook.com/SSSTigers/" title="Facebook"><i class="fa fa-facebook"></i></a>
+        <a class="footerSmall-btn" href="https://www.instagram.com/ECU_STUDENTSUPPORTSERVICES/" title="Instagram"><i class="fa fa-instagram"></i></a>
+        
+
+    </section>
+
+<!----JavaScriptf for Toggle Menu ----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</html>
