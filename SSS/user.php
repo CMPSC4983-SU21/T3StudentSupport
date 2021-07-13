@@ -31,6 +31,14 @@ if (isset($_POST['submit'])) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <title>Appointment</title>
+  <style>
+body { 
+  background-image: url('logo-big.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 00% 90%; 
+}
+</style>
 </head>
 
 <body>
@@ -62,7 +70,24 @@ if (isset($_POST['submit'])) {
       <button type="submit" class="btn btn-primary" name="submit">Submit</button>
     </form>
   </div>
-
+  <aside>
+ <hr>   
+<p style="text-align:center;"><strong> Contact Info </strong></p>
+<p style="text-align:center;" a href="https://www.ecok.edu/student-support-services"> Website </p>
+<p style="text-align:center;"> +1 (580) 559-5833 </p>
+<p style="text-align:center;">Email</p>
+<p style="text-align:center;">1100 E 14th St., Admin Building 250, Ada, OK, 74820</p>
+<hr>
+<p style="text-align:center;"><strong>Business hours></strong></p>
+<p style="text-align:center;">Mon8:00 am - 5:00 pm</p>
+<p style="text-align:center;">Tue8:00 am - 5:00 pm</p>
+<p style="text-align:center;">Wed8:00 am - 5:00 pm</p>
+<p style="text-align:center;">Thu8:00 am - 5:00 pm</p>
+<p style="text-align:center;">Fri8:00 am - 5:00 pm</p>
+<p style="text-align:center;">SatClosed</p>
+<p style="text-align:center;">SunClosed</p>
+</aside>
+</body>
 </body>
 
 </html>

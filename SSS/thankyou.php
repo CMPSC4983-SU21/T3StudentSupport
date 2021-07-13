@@ -13,6 +13,14 @@
 	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
 	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
 </head>
+<style>
+body { 
+  background-image: url('logo-big.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 00% 00%; 
+}
+</style>
 <body>
 	<header class="site-header" id="header">
 		<h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
