@@ -36,6 +36,9 @@ body {
 
 	<footer class="site-footer" id="footer">
 		<p class="site-footer__fineprint" id="fineprint">Copyright ©2021| All Rights Reserved | ECU</p>
+		<p class="lead">
+    <a class="btn btn-primary btn-sm" href="display.php" role="button">Admin</a>
+  </p>
 	</footer>
 </body>
 </html>

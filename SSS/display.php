@@ -54,6 +54,14 @@ include 'connect.php';
           }
         }
         ?>
+        <style>
+body { 
+  background-image: url('logo-big.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 100%; 
+}
+</style>
 
 
       </tbody>
