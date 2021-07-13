@@ -55,7 +55,7 @@ img {
       </div>
 
       <div class="mb-3">
-        <label> Advisor</label>
+        <label> Advisor</label><br>
         <select>
           <option value="advisor" name="advisor"> Dannie Patton </option>
           <option value="advisor" name="advisor"> Elizabeth Floyd </option>
