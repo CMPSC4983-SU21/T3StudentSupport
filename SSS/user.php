@@ -84,8 +84,8 @@ body {
 <p style="text-align:center;">Wed8:00 am - 5:00 pm</p>
 <p style="text-align:center;">Thu8:00 am - 5:00 pm</p>
 <p style="text-align:center;">Fri8:00 am - 5:00 pm</p>
-<p style="text-align:center;">SatClosed</p>
-<p style="text-align:center;">SunClosed</p>
+<p style="text-align:center;">Sat-Closed</p>
+<p style="text-align:center;">Sun-Closed</p>
 </aside>
 </body>
 </body>
