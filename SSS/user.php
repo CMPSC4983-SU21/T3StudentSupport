@@ -31,12 +31,12 @@ if (isset($_POST['submit'])) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <title>Appointment</title>
-  <style>
-body { 
-  background-image: url('logo-big.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 00% 90%; 
+  <img src="logo-big.png" alt="ECU" class="center" >
+ <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 </head>
