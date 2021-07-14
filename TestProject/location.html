@@ -11,7 +11,6 @@
 
 </head>
 <body>
-   
     <!-- Navbar -->
     <section class="homePageHeader">
         <nav>
@@ -35,23 +34,18 @@
                         <div class="dropdown-content">
                             <li><a class="dropdown-item" href="https://www.ecok.edu/directory" target="_blank">Directory</a></li>
                             <li><a class="dropdown-item" href="https://blackboard.ecok.edu/" target="_blank">Blackboard</a></li>
-                            <li><a class="dropdown-item" href="https://www.ecok.edu/colleague-self-service" target="_blank">Colleague Self-Service</a></li>
                             <li><a class="dropdown-item" href="https://outlook.office.com/mail/inbox" target="_blank">Email</a>
                             <li><a class="dropdown-item" href="https://myecu.ecok.edu/ics/" target="_blank">My ECU</a></li>
+                            <li><a class="dropdown-item" href="https://www.ecok.edu/colleague-self-service" target="_blank">Colleague Self-Service</a></li>
                             <li><a class="dropdown-item" href="https://www.tutorme.com/" target="_blank">TutorMe</a></li>
-                            <li><a class="dropdown-item" href="login.html" target="_blank">Login</a></li>
                         </div>
-                      </div>
                     </div>
                 </ul>
+            </div>
             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
         </section>
-
-   
-
-        <div class="about">
-            <h2><b>Student Support Services</b></h2>
+        <div class="about">     
             <br>
             <img src="images/2019_ECU_Campus_Map_Corrected.jpg" class="w3-image " style="width:100%;">
             <br>
@@ -62,7 +56,8 @@
         <div class="about">
             <h3>Where are we located?</h3>
             <p>
-                <i class="fa fa-map-marker"></i>
+                <center>
+                    <i class="fa fa-map-marker"></i>
                 Student Support Services
                 <br>
                 Administration Building
@@ -72,32 +67,28 @@
                 1100 East 14th Street
                 <br>
                 Ada, OK 74820
+                </center>
+                
             </p>
 
         </div>
 
         <!-- Footer -->
         <section class="footer">
-
             <h4>Follow Us</h4>
-           
             <a class="footerSmall-btn" href="https://www.facebook.com/SSSTigers/" title="Facebook"><i class="fa fa-facebook"></i></a>
-            <a class="footerSmall-btn" href="https://www.instagram.com/ECU_STUDENTSUPPORTSERVICES/" title="Instagram"><i class="fa fa-instagram"></i></a>
-            
-    
+            <a class="footerSmall-btn" href="https://www.instagram.com/ECU_STUDENTSUPPORTSERVICES/" title="Instagram"><i class="fa fa-instagram"></i></a>    
         </section>
-
-       
 
         <!-- <script src="bootstrap.js"> </script>     -->
 </body>
- <script>
-            var navLinks = document.getElementById("navLinks");
-            function showMenu(){
-                navLinks.style.right = "0";
-            }
-            function hideMenu(){
-                navLinks.style.right = "-200px";
-            }
-        </script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </html>

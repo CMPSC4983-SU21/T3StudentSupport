@@ -13,6 +13,14 @@
     background-size: cover;
     position: relative;
 }
+#headAboutUs{
+    min-height: 35vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/EcuBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
 .homePageHeader{
     min-height: 75vh;
@@ -221,7 +229,7 @@ nav .fas{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 h1{
     font-size: 36px;
@@ -238,6 +246,12 @@ p{
 }
 .row{
     margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#rowText{
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
 
@@ -288,8 +302,8 @@ h3{
 .about{
     width: 80%;
     margin: auto;
-    text-align: justify;
-    padding-top: 50px;
+    text-align:inherit;
+    padding-top: 35px;
 
 }
 .about h1{
@@ -409,7 +423,7 @@ h3{
      transition: 1s;
  }
 
-
+ 
 /*----------Login----------*/
 .login-box{
     width: 280px;
@@ -462,4 +476,7 @@ h3{
   .btn{
     background-color: black;
   }
-  
+  #textAlign{
+      position: center;
+
+  }
